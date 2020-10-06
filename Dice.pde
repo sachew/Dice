@@ -1,9 +1,9 @@
-int startX = 0;
-int startY = 150;
-int endX = 0;
-int endY = 150;
+  int startX = 0;
+  int startY = 150;
+  int endX = 0;
+  int endY = 150;
 
-void setup()
+  void setup()
   {
       noLoop();
       size(600,600);
