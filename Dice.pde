@@ -5,7 +5,7 @@
 
   void setup()
   {
-      noLoop();
+      
       size(600,600);
       
   }
