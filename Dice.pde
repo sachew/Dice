@@ -49,28 +49,28 @@
       void show()
       {
           fill((int)(Math.random()*45+180),(int)(Math.random()*120+130),(int)(Math.random()*70+180));
-          rect(myX,myY,size,size);
+          rect(myX,myY,50,50);
           fill(0,0,0);
           if(dots==1){
-            circle(myX + size/2, myY + size/2, 10);
+            circle(myX + 50/2, myY + 50/2, 10);
           } else if(dots==2){
-            circle(myX + size/4,myY + size/4, 10);
-            circle(myX + size*3/4,myY + size*3/4, 10);
+            circle(myX + 50/4,myY + 50/4, 10);
+            circle(myX + 50*3/4,myY + 50*3/4, 10);
           } else if(dots==3){
-            circle(myX + size/4,myY + size/4, 10);
-            circle(myX + size/2, myY + size/2, 10);
-            circle(myX + size*3/4,myY + size*3/4, 10);
+            circle(myX + 50/4,myY + 50/4, 10);
+            circle(myX + 50/2, myY + 50/2, 10);
+            circle(myX + 50*3/4,myY + 50*3/4, 10);
           } else if(dots==4){
-            circle(myX + size/4,myY + size/4, 10);
-            circle(myX + size/4,myY + size*3/4, 10);
-            circle(myX + size*3/4,myY + size*3/4, 10);
-            circle(myX + size*3/4,myY + size/4, 10);
+            circle(myX + 50/4,myY + 50/4, 10);
+            circle(myX + 50/4,myY + 50*3/4, 10);
+            circle(myX + 50*3/4,myY + 50*3/4, 10);
+            circle(myX + 50*3/4,myY + 50/4, 10);
           } else{
-            circle(myX + size/4,myY + size/4, 10);
-            circle(myX + size/4,myY + size*3/4, 10);
-            circle(myX + size*3/4,myY + size*3/4, 10);
-            circle(myX + size*3/4,myY + size/4, 10);
-            circle(myX + size/2, myY + size/2, 10);
+            circle(myX + 50/4,myY + 50/4, 10);
+            circle(myX + 50/4,myY + 50*3/4, 10);
+            circle(myX + 50*3/4,myY + 50*3/4, 10);
+            circle(myX + 50*3/4,myY + 50/4, 10);
+            circle(myX + 50/2, myY + 50/2, 10);
           }
       }
   }
