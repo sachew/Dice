@@ -2,13 +2,12 @@
   void setup()
   {
       noLoop();
-      
       size(600,600);
       
   }
   void draw()
   {
-      clear();
+      background(0,0,0);
       int counter = 0;
       int y = 10;
       for(int i = 0; i<6; i+=1){
@@ -30,16 +29,16 @@
       redraw();
       
   }
-  class Die //models one single dice cube
+  class Die 
   {
-      //member variable declarations here
+      
       float myX, myY;
       int dots;
       int size = 50;
       
-      Die(int x, int y) //constructor
+      Die(int x, int y) 
       {
-          //variable initializations here
+          
           myX = x;
           myY = y;
       }
