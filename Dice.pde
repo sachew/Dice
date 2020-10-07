@@ -49,7 +49,7 @@
       void show()
       {
           fill((int)(Math.random()*45+180),(int)(Math.random()*120+130),(int)(Math.random()*70+180));
-          square(myX,myY,size);
+          rect(myX,myY,size,size);
           fill(0,0,0);
           if(dots==1){
             circle(myX + size/2, myY + size/2, 10);
