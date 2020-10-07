@@ -52,25 +52,25 @@
           rect(myX,myY,50,50);
           fill(0,0,0);
           if(dots==1){
-            circle(myX + 50/2, myY + 50/2, 10);
+            ellipse(myX + size/2, myY + size/2, 10, 10);
           } else if(dots==2){
-            circle(myX + 50/4,myY + 50/4, 10);
-            circle(myX + 50*3/4,myY + 50*3/4, 10);
+            ellipse(myX + size/4,myY + size/4, 10, 10);
+            ellipse(myX + size*3/4,myY + size*3/4, 10, 10);
           } else if(dots==3){
-            circle(myX + 50/4,myY + 50/4, 10);
-            circle(myX + 50/2, myY + 50/2, 10);
-            circle(myX + 50*3/4,myY + 50*3/4, 10);
+            ellipse(myX + size/4,myY + size/4, 10, 10);
+            ellipse(myX + size/2, myY + size/2, 10, 10);
+            ellipse(myX + size*3/4,myY + size*3/4, 10, 10);
           } else if(dots==4){
-            circle(myX + 50/4,myY + 50/4, 10);
-            circle(myX + 50/4,myY + 50*3/4, 10);
-            circle(myX + 50*3/4,myY + 50*3/4, 10);
-            circle(myX + 50*3/4,myY + 50/4, 10);
+            ellipse(myX + size/4,myY + size/4, 10, 10);
+            ellipse(myX + size/4,myY + size*3/4, 10, 10);
+            ellipse(myX + size*3/4,myY + size*3/4, 10, 10);
+            ellipse(myX + size*3/4,myY + size/4, 10, 10);
           } else{
-            circle(myX + 50/4,myY + 50/4, 10);
-            circle(myX + 50/4,myY + 50*3/4, 10);
-            circle(myX + 50*3/4,myY + 50*3/4, 10);
-            circle(myX + 50*3/4,myY + 50/4, 10);
-            circle(myX + 50/2, myY + 50/2, 10);
+            ellipse(myX + size/4,myY + size/4, 10, 10);
+            ellipse(myX + size/4,myY + size*3/4, 10, 10);
+            ellipse(myX + size*3/4,myY + size*3/4, 10, 10);
+            ellipse(myX + size*3/4,myY + size/4, 10, 10);
+            ellipse(myX + size/2, myY + size/2, 10, 10);
           }
       }
   }
